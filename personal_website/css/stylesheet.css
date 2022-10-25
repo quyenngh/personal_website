@@ -1,9 +1,9 @@
 body {
-    background-color: aliceblue;
+    background-color: #e0ddd0;
 }
 
 h1 {
-    color: blue;
+    color: #334259;
 }
 
 .personalwebH1 {
@@ -11,6 +11,13 @@ h1 {
 }
 
 nav {
-    background-color: lightblue;
+    background-color: #a6cad4;
+    
     text-align:center;
+}
+
+footer {
+    background-color: #a6cad4;
+    text-align:center;
+    color: #db504a
 }
