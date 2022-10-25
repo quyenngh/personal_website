@@ -10,10 +10,25 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-nav {
+header {
     background-color: #a6cad4;
-    
     text-align:center;
+    padding: 1px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0px 10px;
+}
+
+.school-nav {
+    display: flex;
+    order: 1;
 }
 
 footer {
