@@ -31,6 +31,13 @@ nav ul li {
     order: 1;
 }
 
+article {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+
+
 footer {
     background-color: #a6cad4;
     text-align:center;
