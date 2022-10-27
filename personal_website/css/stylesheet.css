@@ -51,7 +51,7 @@ footer {
 }
 
 a:link {
-    color: #a6cad4;
+    color: #334259;
 }
 a:visited {
     color: #334259;
@@ -60,7 +60,7 @@ a:focus {
     color: #e5e5dc;
 }
 a:hover {
-    color: #e5e5dc
+    color: #db504a;
 }
 
 div {
