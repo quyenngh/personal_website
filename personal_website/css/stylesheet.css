@@ -62,3 +62,9 @@ a:focus {
 a:hover {
     color: #e5e5dc
 }
+
+div {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
