@@ -64,16 +64,12 @@ div {
     justify-content: center;
 }
 
-li {
-    list-style-type: none;
-}
-
 .topborder {
     border-top:teal 2px solid;
     padding-top: 10px;
 }
 
-@media screen and (min-width:600px) {
+@media (min-width:600px) {
     .topborder {
         border-top:midnightblue 2px solid;
     }
@@ -85,11 +81,21 @@ li {
 
     section {
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 400px 2fr;
+        grid-template-rows: 10px;
     }
 
-    li a {
-        grid-column: 1/-1;
+    .courselink {
+        grid-row: 1/1;
+        grid-column:1/1;
     }
+    .courseinfo {
+        grid-row: 2/2;
+        grid-column: 2/2;
+    }    
+    .season {
+        grid-row: 3/3;
+    }
+
 }
 
