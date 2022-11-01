@@ -50,10 +50,6 @@ footer {
     color: #db504a
 }
 
-a:link {
-}
-a:visited {
-}
 a:focus {
     color: #e5e5dc;
 }
@@ -66,3 +62,22 @@ div {
     align-items: center;
     justify-content: center;
 }
+
+li {
+    list-style-type: none;
+}
+
+.webtech {
+    padding-top: 10px;
+    border-top: teal 2px solid;
+    border-bottom:teal 2px solid;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:600px) {
+    .webtech {
+        border-top: midnightblue 2px solid;
+        border-bottom:midnightblue 2px solid;
+    }
+}
+
