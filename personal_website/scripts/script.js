@@ -22,4 +22,9 @@ do {
     console.log(typeof Number(input))
 }
 while(isNaN(input)||input.length!=4) 
-console.log(`Yes I am taking the course: ${input}`)
+
+for (let course of courseList) {
+    if (course['code']==input)
+    console.log(`Yes I am taking the course: ${course['program']} ${course['code']} - ${course['name']}`)
+}
+
